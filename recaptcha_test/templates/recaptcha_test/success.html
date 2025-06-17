@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Success - Django reCAPTCHA Test{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body text-center">
+                <h3 class="text-success">Success!</h3>
+                <p>Your message has been sent successfully.</p>
+                <a href="{% url 'recaptcha_test:contact_form' %}" class="btn btn-primary">Send Another Message</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

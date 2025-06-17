@@ -1,0 +1,35 @@
+# Django specific files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+*.sqlite3
+
+# Environment variables
+.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Media and static files
+media/
+static/
+
+# Node modules (if applicable)
+node_modules/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Miscellaneous
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
