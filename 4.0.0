@@ -1,9 +1,0 @@
-Collecting django-recaptcha
-  Using cached django_recaptcha-4.1.0-py3-none-any.whl.metadata (12 kB)
-Requirement already satisfied: django in c:\users\mbaji\django\captcha_project\venv\lib\site-packages (from django-recaptcha) (4.2)
-Requirement already satisfied: asgiref<4,>=3.6.0 in c:\users\mbaji\django\captcha_project\venv\lib\site-packages (from django->django-recaptcha) (3.8.1)
-Requirement already satisfied: sqlparse>=0.3.1 in c:\users\mbaji\django\captcha_project\venv\lib\site-packages (from django->django-recaptcha) (0.5.3)
-Requirement already satisfied: tzdata in c:\users\mbaji\django\captcha_project\venv\lib\site-packages (from django->django-recaptcha) (2025.2)
-Using cached django_recaptcha-4.1.0-py3-none-any.whl (39 kB)
-Installing collected packages: django-recaptcha
-Successfully installed django-recaptcha-4.1.0
